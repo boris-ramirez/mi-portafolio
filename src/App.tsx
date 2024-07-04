@@ -16,7 +16,7 @@ function App() {
           <p>Pruena 1</p>
           <img
             src="https://media.tenor.com/Nqf3-gUgySsAAAAM/cat-sad-gato-triste.gif"
-            alt="gatito tirste"
+            alt="gatito muy triste"
           />
         </div>
         <a
