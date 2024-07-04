@@ -13,7 +13,7 @@ function App() {
         <div className="bg-white flex-col text-black border flex w-full h full rounded-xl">
           <h1>Portafolio Boris</h1>
           <p>Nombre:Boris Kelvin Ramirez Neyra</p>
-          <p>Pruena 1</p>
+          <p>Pruena 2</p>
           <img
             src="https://media.tenor.com/Nqf3-gUgySsAAAAM/cat-sad-gato-triste.gif"
             alt="gatito muy triste"
