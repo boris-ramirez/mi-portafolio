@@ -20,4 +20,4 @@ RUN npm run build
 EXPOSE 8080
 
 # Comando por defecto para ejecutar la aplicación
-CMD ["vite", "preview", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["npm", "run", "preview"]
