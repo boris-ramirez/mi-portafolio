@@ -11,9 +11,9 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p> */}
         <div className="bg-white flex-col text-black border flex w-full h full rounded-xl">
-          <p>Hola mor ❤️❤️❤️</p>
-          <p>aqui juancarlos bodoque con el reporte del dia</p>
-          <p>te extrañamos</p>
+          <h1>Portafolio Boris</h1>
+          <p>Nombre:Boris Kelvin Ramirez Neyra</p>
+          <p>Pruena 1</p>
           <img
             src="https://media.tenor.com/Nqf3-gUgySsAAAAM/cat-sad-gato-triste.gif"
             alt="gatito tirste"
