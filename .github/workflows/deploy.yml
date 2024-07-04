@@ -17,6 +17,11 @@ jobs:
         with:
           node-version: '16'
 
+      - name: Install Fly CLI
+        run: |
+          curl -L https://fly.io/install.sh | sh
+          sudo mv flyctl /usr/local/bin/fly
+
       - name: Install dependencies
         run: npm install
 
@@ -26,5 +31,4 @@ jobs:
       - name: Deploy to Fly.io
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-        run: |
-          fly deploy
+        run: fly deploy
