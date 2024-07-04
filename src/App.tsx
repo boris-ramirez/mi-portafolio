@@ -19,6 +19,8 @@ function App() {
       <h1>Vite + React</h1>
       <div className=' flex border-2 rounded-2xl flex p-4'>
     <p>Portafolio boris</p>
+    <p>Prueba de wsubida con git a fly.io</p>
+
       </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
