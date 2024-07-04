@@ -1,7 +1,7 @@
-app = "nombre-de-tu-aplicacion"
+app = "mi-portafolio-old-dew-3579"
 
 [build]
-  image = "flyio/hellofly:latest"
+  dockerfile = "Dockerfile"
 
 [env]
   PORT = "8080"
