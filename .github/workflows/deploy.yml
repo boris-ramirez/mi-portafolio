@@ -20,7 +20,7 @@ jobs:
       - name: Install Flyctl
         run: |
           curl -L https://fly.io/install.sh | sh
-          export PATH=$HOME/.fly/bin:$PATH
+          echo 'export PATH="$HOME/.fly/bin:$PATH"' >> $GITHUB_ENV
 
       - name: Install dependencies
         run: npm install
