@@ -21,10 +21,10 @@ const ParticlesBackground: React.FC<ParticlesBackgroundProps> = ({ targetPoint }
 
     const geometry = new THREE.BufferGeometry();
     const vertices = [];
-    for (let i = 0; i < 60000; i++) { // Aumenta el número de partículas
-      vertices.push(THREE.MathUtils.randFloatSpread(5000)); // Aumenta el área de dispersión
-      vertices.push(THREE.MathUtils.randFloatSpread(5000));
-      vertices.push(THREE.MathUtils.randFloatSpread(5000));
+    for (let i = 0; i < 80000; i++) { // Aumenta el número de partículas
+      vertices.push(THREE.MathUtils.randFloatSpread(6000)); // Aumenta el área de dispersión
+      vertices.push(THREE.MathUtils.randFloatSpread(6000));
+      vertices.push(THREE.MathUtils.randFloatSpread(6000));
     }
     geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
 
