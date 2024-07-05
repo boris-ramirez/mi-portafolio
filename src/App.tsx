@@ -1,38 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import ParticlesBackground from './components/ParticlesBackground';
+import Header from './components/Header';
+import Content from './components/Content';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App: React.FC = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="relative w-full h-screen overflow-hidden">
+      <ParticlesBackground />
+      <div className="relative z-10">
+        <Header />
+        <Content />
       </div>
-      <h1>Vite + React</h1>
-      <div className=' flex border-2 rounded-2xl flex p-4'>
-    <p>Portafolio boris</p>
-    <p>Prueba de wsubida con git a fly.io</p>
-
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-    
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
