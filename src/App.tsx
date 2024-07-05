@@ -10,6 +10,7 @@ import FAQ from './components/FAQ';
 
 const App: React.FC = () => {
   const [prevPath, setPrevPath] = useState('/');
+  console.log(prevPath)
   const [targetPoint, setTargetPoint] = useState<[number, number, number]>([0, 0, 0]);
 
   const calculateDisplacement = (currentPath: string) => {
